@@ -1,0 +1,599 @@
+@font-face{
+	src:url(../font_family/Brandon_bld.otf);
+	font-family: Brandon_bld;
+}
+@font-face{
+	src:url(../font_family/Brandon_light.otf);
+	font-family: Brandon_light;
+}
+@font-face{
+	src:url(../font_family/Brandon_med.otf);
+	font-family: Brandon_med;
+}
+
+@font-face{
+	src:url(../font_family/Brandon_reg.otf);
+	font-family: Brandon_reg;
+}
+@font-face{
+	src:url(../font_family/Cubano-Regular.otf);
+	font-family: Cubano-Regular;
+}
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	
+}
+/*=================header start*/
+header{
+	background-image: url(../image/h_b_img.jpg);
+	background-size: cover;
+}
+.container{
+	/*! border:1px solid white; */
+	width: 70%;
+	margin:0px auto;
+	overflow: hidden;
+}
+/*==================logo menu start*/
+.logo_menu{
+	padding: 35px 0px;
+	color: #ffffff;
+	overflow: hidden;
+}
+.logo{
+	margin: 0px 0px;
+	padding: 0px 0px 35px 0px;
+	width: 34%;
+	float: left;	
+}
+.logo ul{
+	position: relative;
+}
+.logo ul li{
+	padding: 0px 0px 0px 48px;
+	float: left;
+	list-style: none;	
+}
+.logo ul li img{
+	position: absolute;
+	left: 0px;
+	top: 4px;
+
+}
+.logo ul li h2{
+	position: absolute;
+	font-family: Cubano-Regular;
+	font-size: 24.84px;
+	font-weight:400 ;
+	letter-spacing: 5px;
+}
+.menu{
+	margin: 0px 0 0 0;
+	width: 60%;
+	float: right;	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family:Brandon_med ;
+	font-size: 18px ;
+	font-weight:500 ;
+ 	color: white;
+	text-decoration: none;
+	margin: 0px 30px;
+	border:1px solid transparent;
+	transition: .5s ease;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid white;
+}
+/*===========logo menu end*/
+
+/*===========heading home start*/
+.h_home{
+	margin:100px 0px 80px 0px;
+	color: white;
+	text-align: center;
+}
+.h_home h2{
+	font-family: Brandon_light;
+	font-size: 32px ;
+	font-weight: 300;
+	padding-bottom: 45px;
+
+}
+.h_home h3{
+	font-family: Brandon_bld;
+	font-size: 66px ;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+/*===========heading home end*/
+
+/*===========heading button start*/
+.h_button{
+	text-align: center;
+	margin-bottom: 125px;
+}
+.h_button button{
+	padding:18px 60px;
+	border:none;
+	border:3px solid white;
+	border-radius: 5%;
+	font-family: Brandon_bld;
+	font-size: 23px ;
+	font-weight: 700;
+	color: white;
+	background-color: transparent;	
+}
+.h_button button:focus{
+	outline: 0;
+}
+
+/*===========heading button end*/
+
+/*============header end*/
+
+/*============service section start*/
+.service{
+
+}
+.container2{
+	margin:0 auto;
+	width: 65%;	
+	overflow: hidden;
+}
+.wev_devolopment{
+	margin: 90px 0px;
+	overflow: hidden;	
+}
+.sw_left{
+	float: left;
+	width: 70%;
+}
+.sw_left h2{
+	font-family:Brandon_light ;
+	font-size: 60px ;
+	font-weight:300 ;
+	color: #222222;
+}
+.bold{
+	font-family: Brandon_bld;
+	font-size: 60px ;
+	font-weight: 700;
+	color: #222222;
+
+}
+.sw_left p{
+	font-family: Brandon_reg;
+	font-size:18px ;
+	font-weight: 400 ;
+	color: #777777 ;
+}
+.proin{
+	padding: 35px 0px;
+}
+.sw_right{
+	margin-top: 10px;
+	float: right;
+	width: 28%;
+	
+}
+.sw_right img{
+	width: 100%;
+}
+
+/*Identity Branding start*/
+.Identity{
+
+}
+.si_right{
+	float: right;
+}
+.si_left{
+	float: left;
+}
+/*Identity Branding end*/
+
+/*skills section start*/
+.skills{
+	padding: 90px 0px 0px 0px;
+	overflow: hidden;
+}
+
+.Branding_Identity{
+	margin-bottom: 40px;
+	width: 46%;
+	overflow: hidden;
+	float: left;		
+}
+.Branding_Identity:nth-child(even){
+	margin-left: 66px;
+}
+
+.icon{
+	float: left;
+	height: 72px;
+	width: 72px;
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+}
+.icon img{
+	position: absolute;
+	top: 18%;
+	left: 34%;
+
+}
+.text{
+	float: right;
+	width: 75%;
+	margin-right: 14px;
+}
+.text h2{
+	font-family: Brandon_med;
+	font-size: 22px ;
+	font-weight: 500;
+	color: #222222 ;
+}
+.text p{
+	font-family: Brandon_reg;
+	font-size: 18px ;
+	font-weight: 400 ;
+	color: #777777 ;
+}
+
+/*web start*/
+.s_browser img{
+	position: absolute;
+	top: 25%;
+	left: 24%;
+}
+.s_Animations img{
+	position: absolute;
+	top: 32%;
+	left: 24%;
+}
+.ui_ux img{
+	position: absolute;
+	top: 22%;
+	left: 24%;
+}
+.Photography img{
+	position: absolute;
+	top: 28%;
+	left: 28%;
+}
+/*skills section end*/
+
+
+/*============service section end*/
+
+/*=============Our Awesome Clients start */
+.our_awesome_clients{
+	margin: 100px 0px;
+}
+.container{
+	overflow: hidden;
+}
+/*awesome start*/
+.awesome{
+	padding: 0px 0px 50px 0px;
+	text-align: center;
+	width: 100%;	
+}
+.awesome h2{
+	font-size: 60px;
+}
+.awesome p{
+	font-size: 18px;
+}
+/*clients start*/
+.clients{
+	padding: 15px 0px;
+	border:1px solid transparent;
+	overflow: hidden;	
+}
+.c_box{
+	width: 30%;
+	float: left;
+}
+.a_c_box{
+	height: 220px;
+	width:220px;
+	border-radius: 50%;
+	background-color: black;
+}
+.a_c_text{
+	margin: 58px 0px;
+	width: 65%;
+	float: right;	
+}
+.a_c_t_quote{
+	font-family: Brandon_reg;
+	font-size: 26px;
+	font-weight: 400 ;
+	color:#777777 ;
+}
+.a_c_t_client{
+	font-size: 20px;
+	color: #7690c5;
+}
+/*another client start*/
+.c_left{
+	float: right;
+}
+.c_right{
+	float: right;
+}
+.c_left_box{
+	margin:0px 0px 0px 61px;
+}
+
+/*=================Our Awesome Clients end*/
+
+/*=================logos section start*/
+
+
+.logos{
+	padding: 40px 0px;
+}
+.logos_img{
+	overflow: hidden;
+}
+.logos_img_1{
+	float: left;
+	margin:0px 25px;
+}
+.logos_envato{
+	margin: 6px 0px;
+}
+
+/*=================logos section end*/
+
+/*================= Our Amazing Team start*/
+.our_amazing{
+	background-color:black;
+}
+
+/*=================amazing start*/
+.amazing{	
+	margin:90px 0px 70px 0px;
+	text-align: center;
+}
+.amazing h2{
+	font-family: Brandon_light; ;
+	font-size: 60px ;
+	font-weight: 300;
+	color: #ffffff;
+}
+.a_team{
+	font-family: Brandon_bld;
+	font-size: 60px ;
+	font-weight: 700;
+	color: #ffffff;
+}
+.amazing p{
+	font-family: Brandon_reg;
+	font-size: 22px;
+	font-weight:400;
+	color: #777777;
+}
+
+/*==================team start*/
+.team{
+	overflow: hidden;
+}
+.Kimberly_Thompson{
+	margin: 0px 2.05%;
+	margin-bottom: 20px;
+	width: 29%;
+	float: left;	
+}
+.team_circle{
+	height: 230px;
+	width: 230px;
+	border:8px solid white;
+	border-radius: 50%;
+}
+.name_title{
+	margin: 8px 0px 4px 0px;
+}
+.name_title h4{
+	font-family: Brandon_bld;
+	font-size: 18px ;
+	font-weight: 700;
+	text-align: center;
+}
+.name_title p{
+	font-family: Brandon_reg;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+.social{
+	margin: 0px auto;
+	overflow: hidden;
+	width: 80%;	
+}
+.twitter{
+	margin: 0px 8px;
+	float: left;
+	height: 40px;
+	width: 40px;
+	border:5px solid white;
+	border-radius: 50%;
+	position: relative;	
+	transition: .3s ease;
+}
+.twitter img{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+.color1:hover{
+	background-color: #00aced;
+	border:5px solid #00aced;
+}
+.color2:hover{
+	background-color: #3b5998;
+	border:5px solid #3b5998;
+}
+.color3:hover{
+	background-color: #cb2028;
+	border:5px solid #cb2028;
+}
+.color4:hover{
+	background-color: #d95232;
+	border:5px solid #d95232;
+}
+.s_half{
+	width: 53%;
+}
+/*description start*/
+.description{
+	margin-bottom: 90px;
+}
+.description p{
+	font-family: Brandon_reg;
+	font-size:20px ;
+	font-weight: 400;
+	color: white;
+	text-align: center;		
+}
+
+ /*=================Our Amazing Team end*/
+
+/*==================contact us section start*/
+ .contact_us{
+ 	padding: 90px 0px;
+ 	background-color: #7690c5;
+ 	color: white;
+ }
+.container h2{
+	font-family: Brandon_light;
+	font-size: 60px;
+	font-weight: 300;
+}
+.c_u_i_heading p{
+	font-family: Brandon_reg;
+	font-size: 18px;
+	font-weight:400;
+	color: white;
+}
+/*contact us information start*/
+.c_U_information{
+	width: 45%;
+	float: left;
+}
+/*heading information start*/
+.c_u_i_heading{
+	/*! border:1px solid black; */
+}
+
+/*heading information end*/
+
+.contact_column{
+	overflow: hidden;
+	margin-top: 10px;
+}
+/*Contact-Column 1 start*/
+.Contact_Column_1{
+	width: 48%;
+	float: left;
+}
+.mobile_icon{
+	position: relative;
+	border: 1px solid transparent;
+	margin: 10px 0px;
+}
+
+.mobile_icon img{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+.mobile_icon p{
+	margin: 10px 0px 15px 50px;
+}
+
+/*Contact-Column 1 end*/
+
+.Contact_Column_2{
+	float: right;
+	margin-right: 7px;
+}
+
+/*contact us information end*/
+
+/*send information start*/
+.send_information{
+	width: 49%;
+	float: right;
+}
+
+.form form input{
+	padding: 20px;
+	display: block;
+	width: 414px;	
+	font-family: Brandon_med;
+	font-size: 18px;
+	font-weight: 500;
+	color: #bbbbbb;
+	border-radius: 5px;
+	border: none;
+}
+.form form input:focus{
+	outline: 0;
+}
+.input2{
+	margin:20px 0px;
+}
+.form form textarea{
+	padding: 20px 0px 120px 20px;
+	display: block;
+	width: 433px;
+	font-family: Brandon_med;
+	font-size: 18px;
+	font-weight: 500;
+	color: #bbbbbb;
+	border-radius: 5px;
+	border: none;
+}
+.form form textarea:focus{
+	outline: 0;
+}
+/*send information end*/
+.copy{
+	background-color: #7690c5;
+
+}
+.container3:last-child{
+	margin:0px auto;
+	width: 70%;
+	border-top: 1px solid white;	
+}
+.copy_right{
+	padding:30px 0px;
+	text-align: center;
+}
+.copy_right p{
+	font-family: Brandon_med;
+	font-weight: 500;
+	color: white;
+}
+/*===================contact us section start*/
+
+
